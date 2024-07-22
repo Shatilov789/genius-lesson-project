@@ -1,0 +1,165 @@
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/roboto-condensed-v27-latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 600;
+    src: url('../fonts/roboto-condensed-v27-latin-600.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/play-v19-latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Play';
+    font-style: normal;
+    font-weight: 700;
+    src: url('../fonts/play-v19-latin-700.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+:root {
+    --color-blue-dark: #011C44;
+    --color-blue-light: #2B7FFF;
+    --color-white: #FFFFFF;
+}
+
+/* bae section */
+
+body {
+    color: var(--color-blue-dark);
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+address {
+    font-style: normal;
+}
+
+ul {
+    list-style-type: none;
+}
+
+/* Button section */
+
+.button {
+    color: var(--color-white);
+    background-color: var(--color-blue-light);
+    /* bottom: 2px solid var(--color-blue-light); */
+    border-radius: 32px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.button:hover {
+    background-color: transparent;
+    color: var(--color-blue-dark);
+    border-color: var(--color-blue-light);
+}
+
+/* Tags section */
+
+h1 {
+    color: var(--color-blue-light);
+    font-weight: 700;
+    line-height: 1.2;
+    text-transform:uppercase;
+    font-family: 'Play', sans-serif;
+    font-size: 140px;
+}
+
+.h2-main {
+    font-family: 'Play', sans-serif;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 1.16;
+}
+
+.span-upper {
+    text-transform: capitalize;
+}
+
+.h2-main .span-main {
+    color: var(--color-blue-light);
+}
+
+.h2-main-center {
+    text-align: center;
+}
+
+.p-first {
+    font-size: 12px;
+}
+
+.p-second {
+    font-size: 22px;
+    line-height: 1.7;
+}
+
+.span-p-second {
+    font-weight: 600;
+    text-transform: capitalize;
+}
+
+/* Link section */
+
+.link {
+    color: var(--color-blue-dark);
+    text-decoration: none;
+
+}
+
+.link:hover {
+    color: var(--color-blue-light);
+    font-weight: 700;
+    line-height: 1.2;
+}
+
+.link-footer {
+    color: var(--color-white);
+}
+
+.link-footer:hover {
+    color: var(--color-blue-light);
+    font-weight: 700;
+    line-height: 1.2;
+    text-decoration: none;
+}
+
+/* Adrees */
+.adress-link {
+    color: var(--color-white);
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    line-height: 1.2;
+}
+
+.adress-link:hover {
+    color: var(--color-blue-light);
+}
+
+.adress-copyright {
+    font-size: 16px;
+}
